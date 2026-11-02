@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Somhlolo Car Wash — Spotless, Every Time</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#home" class="logo">Somhlolo<span>Car Wash</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#booking">Book Now</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#booking" class="nav-cta">Book a Wash</a>
+    <button class="burger" aria-label="menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Car Wash & Detailing</div>
+      <h1>Spotless cars, <em>every single time.</em></h1>
+      <p>From a quick exterior rinse to a full interior valet — Somhlolo Car Wash gets you back on the road looking sharp, without the long wait.</p>
+      <div class="btn-row">
+        <a href="#booking" class="btn btn-primary">Book a Wash</a>
+        <a href="#packages" class="btn btn-outline">See Packages</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="drop"></div><div class="drop"></div><div class="drop"></div><div class="drop"></div>
+      <div class="badge"><b>4.7 ★</b><span>500+ washes a month</span></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="booking" id="booking">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Book Now</div>
+      <h2>Reserve your slot.</h2>
+      <p>Choose a package and a time — skip the queue when you arrive.</p>
+    </div>
+    <div class="booking-card">
+      <form onsubmit="event.preventDefault();">
+        <div class="form-row">
+          <input type="text" placeholder="Full name" required>
+          <input type="tel" placeholder="Phone number" required>
+        </div>
+        <div class="form-row">
+          <select><option>Select a package…</option><option>Basic Wash</option><option>Full Wash</option><option>Full Valet</option></select>
+          <input type="text" placeholder="Vehicle make & model">
+        </div>
+        <div class="form-row">
+          <input type="date">
+          <input type="time">
+        </div>
+        <button class="btn btn-primary" type="submit">Book a Wash</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Somhlolo<span>Car Wash</span></div>
+        <p style="font-size:0.88rem;max-width:280px;">Reliable, spotless car care — book online, skip the wait.</p>
+      </div>
+      <div>
+        <h5>Sitemap</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#booking">Book Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <ul>
+          <li>hello@somhlolocarwash.co.za</li>
+          <li>+27 11 555 0161</li>
+          <li>WhatsApp: +27 82 555 0161</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Somhlolo Car Wash. All rights reserved.</span>
+      <span>Website blueprint prepared for proposal review.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
